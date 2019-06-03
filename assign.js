@@ -7,8 +7,6 @@ function shuffle(array) {
 }
 
 function assign(papers_list,authors_list,numb_of_assignments){
-  var fs = require("fs");
-  var docx = require("docx");
   var len = papers_list.length;
   var dict = new Object();
   shuffle(papers_list);
